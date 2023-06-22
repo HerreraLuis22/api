@@ -23,6 +23,8 @@ const trabajoschema = mongoose.Schema({
     },
     Contrato:[
         {
+            Id_Cliente:{type:Number,require:true},
+            Id_Trabajador:{type:Number,require:true},
             Id_Contrato:{type:String,require:true},
             Parte_Empresa:{type:Number,require:true}
         }
