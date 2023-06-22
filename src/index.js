@@ -11,7 +11,7 @@ app.use('/api',userRoutes);
 
 //routes
 app.get('/',(req,res)=>{
-    res.send("Welcome to my api");
+    
 });
 //mongodb connection
 mongoose.connect(
