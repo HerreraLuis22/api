@@ -4,7 +4,7 @@ const { json } = require('express/lib/response');
 const router = express.Router();
 
 //create trabajo
-router.post('/Trabajo',(req, res)=>{
+router.post('/Trabajos',(req, res)=>{
   const trabajo =   trabajoschema(req.body);
     trabajo
     .save()
