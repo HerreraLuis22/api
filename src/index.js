@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const app = express();
 const userRoutes = require('./routes/Trabajo');
-
+console.log(process.env);
 const port = process.env.PORT || 9000;
 //middleware
 app.use(express.json());
