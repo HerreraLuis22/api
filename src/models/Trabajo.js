@@ -13,6 +13,10 @@ const trabajoschema = mongoose.Schema({
         type:String,
         require:true
     },
+    Categoria:{
+      type:String,
+        require:true
+    },
     Costo:{
         type:Number,
         require:true
